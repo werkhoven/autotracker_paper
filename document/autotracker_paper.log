@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.25)  25 OCT 2018 21:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.25)  26 OCT 2018 13:56
 entering extended mode
 **./autotracker_paper.tex
 (autotracker_paper.tex
@@ -1204,6 +1204,13 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\pclnfss\arial.sty
 Package: arial 
 )
+(C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip64
+\bibsep=\skip65
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count166
+)
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcblistings.co
 de.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '4.14'
@@ -1219,7 +1226,7 @@ Library (tcolorbox): 'tcbprocessing.code.tex' version '4.14'
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 69.
 ))
-\c@tcblisting=\count166
+\c@tcblisting=\count167
 ))
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbskins.code.
 tex
@@ -1254,7 +1261,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibra
 ryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count167
+\pgf@plot@mark@count=\count168
 \pgfplotmarksize=\dimen275
 )
 \tikz@lastx=\dimen276
@@ -1267,19 +1274,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box79
 \tikz@tempbox=\box80
 \tikz@tempbox@bg=\box81
-\tikztreelevel=\count168
-\tikznumberofchildren=\count169
-\tikznumberofcurrentchild=\count170
-\tikz@fig@count=\count171
+\tikztreelevel=\count169
+\tikznumberofchildren=\count170
+\tikznumberofcurrentchild=\count171
+\tikz@fig@count=\count172
 
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulem
 atrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count172
-\pgfmatrixcurrentcolumn=\count173
-\pgf@matrix@numberofcolumns=\count174
+\pgfmatrixcurrentrow=\count173
+\pgfmatrixcurrentcolumn=\count174
+\pgf@matrix@numberofcolumns=\count175
 )
-\tikz@expandcount=\count175
+\tikz@expandcount=\count176
 
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz
 \libraries\tikzlibrarytopaths.code.tex
@@ -1293,55 +1300,55 @@ Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.14'
 )) (autotracker_paper.aux)
 \openout1 = `autotracker_paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 50.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 50.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 51.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 51.
 
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 50.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 51.
 
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 50.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 51.
 
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 50.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 51.
 
 
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 50.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 51.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 \AtBeginShipoutBox=\box83
-Package hyperref Info: Link coloring ON on input line 50.
+Package hyperref Info: Link coloring ON on input line 51.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1349,11 +1356,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count176
+\c@section@level=\count177
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
 
 (autotracker_paper.out) (autotracker_paper.out)
 \@outlinefile=\write6
@@ -1362,16 +1369,16 @@ LaTeX Info: Redefining \nameref on input line 50.
 
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count177
+\scratchcounter=\count178
 \scratchdimen=\dimen282
 \scratchbox=\box84
-\nofMPsegments=\count178
-\nofMParguments=\count179
+\nofMPsegments=\count179
+\nofMParguments=\count180
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count180
+\MPscratchCnt=\count181
 \MPscratchDim=\dimen283
-\MPnumerator=\count181
-\makeMPintoPDFobject=\count182
+\MPnumerator=\count182
+\makeMPintoPDFobject=\count183
 \everyMPtoPDFconversion=\toks49
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1428,172 +1435,167 @@ Package caption Info: End \AtBeginDocument code.
 
 \symgns@font=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ppl/m/n --> TS1/ppl/b/n on input line 50.
-Package gensymb Info: Math companion symbols declared on input line 50.
-LaTeX Info: Redefining \degree on input line 50.
-LaTeX Info: Redefining \celsius on input line 50.
+(Font)                  TS1/ppl/m/n --> TS1/ppl/b/n on input line 51.
+Package gensymb Info: Math companion symbols declared on input line 51.
+LaTeX Info: Redefining \degree on input line 51.
+LaTeX Info: Redefining \celsius on input line 51.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 50.
-LaTeX Info: Redefining \ohm on input line 50.
-Package gensymb Info: Using \textohm for \ohm on input line 50.
-Package gensymb Info: Using \textmu for \micro on input line 50.
-\c@lstlisting=\count183
+erthousand on input line 51.
+LaTeX Info: Redefining \ohm on input line 51.
+Package gensymb Info: Using \textohm for \ohm on input line 51.
+Package gensymb Info: Using \textmu for \micro on input line 51.
+\c@lstlisting=\count184
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for T1+phv on input line 53.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 54.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 \T1/phv/m/n/10 Automated an-i-mal track-ing meth-ods have be-come
- []
-
-
-Underfull \hbox (badness 5008) in paragraph at lines 108--109
-\T1/phv/m/n/10 col-li-sions where bod-ies are over-lap-ping. Track-ing
  []
 
 [1
 
 {C:/Users/winsl0w/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 116.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 118.
 
 [2]
-Underfull \hbox (badness 5802) in paragraph at lines 128--129
+Underfull \hbox (badness 5802) in paragraph at lines 130--131
 \T1/phv/m/n/10 of the dif-fer-ence im-age by re-peat-edly shift-ing the
  []
 
 [3]
-Underfull \hbox (badness 6910) in paragraph at lines 138--139
+Underfull \hbox (badness 6910) in paragraph at lines 140--141
 \T1/phv/m/n/10 groups can be tested si-mul-ta-ne-ously by a sin-gle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 []\T1/phv/m/n/10 Large be-hav-ioral screens can po-ten-tially gen-er-ate
  []
 
 [4] [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 \T1/phv/m/n/10 GUI, ROI de-tec-tion, track-ing im-ple-men-ta-tion, and
  []
 
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 190.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 192.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1phv.fd"
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
-LaTeX Font Info:    Try loading font information for OT1+jkp on input line 190.
+LaTeX Font Info:    Try loading font information for OT1+jkp on input line 192.
 
 
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 190
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 192
 .
 
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsya on input line 190
+LaTeX Font Info:    Try loading font information for U+jkpsya on input line 192
 .
 
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 190
+LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 192
 .
 
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 190
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 192
 .
 
 (C:\Users\winsl0w\AppData\Roaming\MiKTeX\2.9\tex\latex\kpfonts\ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 190.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 192.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ppl.fd"
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ) [7]
-Underfull \hbox (badness 5862) in paragraph at lines 205--206
+Underfull \hbox (badness 5862) in paragraph at lines 207--208
 []\T1/phv/m/n/10 The raw data and anal-y-sis scripts can be found
  []
 
-[8]
-<../figures/autotracker_overview.pdf, id=44, 598.235pt x 319.23967pt>
+(autotracker_paper.bbl) [8]
+<../figures/autotracker_overview.pdf, id=64, 598.235pt x 319.23967pt>
 File: ../figures/autotracker_overview.pdf Graphic file (type pdf)
 <use ../figures/autotracker_overview.pdf>
 Package pdftex.def Info: ../figures/autotracker_overview.pdf  used on input lin
-e 225.
+e 230.
 (pdftex.def)             Requested size: 487.8192pt x 260.32173pt.
  [9 <../figures/autotracker_overview.pdf>]
-<../figures/autotracker_performance.pdf, id=82, 401.25607pt x 469.55525pt>
+<../figures/autotracker_performance.pdf, id=102, 401.25607pt x 469.55525pt>
 File: ../figures/autotracker_performance.pdf Graphic file (type pdf)
 <use ../figures/autotracker_performance.pdf>
 Package pdftex.def Info: ../figures/autotracker_performance.pdf  used on input 
-line 233.
+line 238.
 (pdftex.def)             Requested size: 487.8192pt x 570.85757pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/LED_ymaze_panel.pdf, id=83, 492.34541pt x 481.81606pt>
+<../figures/LED_ymaze_panel.pdf, id=103, 492.34541pt x 481.81606pt>
 File: ../figures/LED_ymaze_panel.pdf Graphic file (type pdf)
 <use ../figures/LED_ymaze_panel.pdf>
-Package pdftex.def Info: ../figures/LED_ymaze_panel.pdf  used on input line 241
+Package pdftex.def Info: ../figures/LED_ymaze_panel.pdf  used on input line 246
 .
 (pdftex.def)             Requested size: 487.8192pt x 477.38167pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/Optomotor_panel.pdf, id=84, 409.53pt x 681.21199pt>
+<../figures/Optomotor_panel.pdf, id=104, 409.53pt x 681.21199pt>
 File: ../figures/Optomotor_panel.pdf Graphic file (type pdf)
 <use ../figures/Optomotor_panel.pdf>
-Package pdftex.def Info: ../figures/Optomotor_panel.pdf  used on input line 249
+Package pdftex.def Info: ../figures/Optomotor_panel.pdf  used on input line 254
 .
 (pdftex.def)             Requested size: 271.0125pt x 450.82785pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/platform_comparison_table.pdf, id=85, 594.72188pt x 273.27094pt>
+<../figures/platform_comparison_table.pdf, id=105, 594.72188pt x 273.27094pt>
 File: ../figures/platform_comparison_table.pdf Graphic file (type pdf)
 <use ../figures/platform_comparison_table.pdf>
 Package pdftex.def Info: ../figures/platform_comparison_table.pdf  used on inpu
-t line 258.
+t line 263.
 (pdftex.def)             Requested size: 487.8192pt x 224.15031pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
 [10 <../figures/autotracker_performance.pdf>] [11 <../figures/LED_ymaze_panel.p
 df>] [12 <../figures/Optomotor_panel.pdf>] [13 <../figures/platform_comparison_
 table.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
  (autotracker_paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
 Package rerunfilecheck Info: File `autotracker_paper.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
  ) 
 Here is how much of TeX's memory you used:
- 25280 strings out of 492972
- 478197 string characters out of 3135877
- 592506 words of memory out of 3000000
- 28699 multiletter control sequences out of 15000+200000
+ 25638 strings out of 492972
+ 483064 string characters out of 3135877
+ 607199 words of memory out of 3000000
+ 29041 multiletter control sequences out of 15000+200000
  44503 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,6n,83p,2299b,451s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,6n,83p,2359b,451s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/winsl0w/Ap
 pData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
 w/helvetic/uhvro8a.pfb>
-Output written on autotracker_paper.pdf (13 pages, 7646038 bytes).
+Output written on autotracker_paper.pdf (13 pages, 7653463 bytes).
 PDF statistics:
- 6321 PDF objects out of 7423 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
+ 6342 PDF objects out of 7423 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

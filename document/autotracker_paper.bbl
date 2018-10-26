@@ -1,0 +1,67 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Eyjolfsdottir et~al.(2014)Eyjolfsdottir, Branson, and
+  Vision]{Eyjolfsdottir_Detecting_2014}
+E~Eyjolfsdottir, S~Branson, and {Burgos-Artizzu~-}~{XP} Vision.
+\newblock Detecting social actions of fruit flies.
+\newblock \emph{…~on Computer Vision}, 2014.
+
+\bibitem[A et~al.(2014)A, J, and Nature~…]{Prez-Escudero_idTracker_2014}
+{P{\'e}rez-Escudero,} A, {Vicente-Page,} J, and Hinz~{RC} Nature~….
+\newblock {idTracker:} tracking individuals in a group by automatic
+  identification of unmarked animals.
+\newblock \emph{Nature~…}, 2014.
+
+\bibitem[Branson et~al.(2009)Branson, Robie, Bender, and
+  Nature~…]{Branson_High_2009}
+K~Branson, {AA} Robie, J~Bender, and Perona~P Nature~….
+\newblock High-throughput ethomics in large groups of drosophila.
+\newblock \emph{Nature~…}, 2009.
+
+\bibitem[Sridhar et~al.(2018)Sridhar, Roche, and S]{Sridhar_Tracktor_2018}
+{VH} Sridhar, {DG} Roche, and {bioRxiv,}~Gingins S.
+\newblock Tracktor: image-based automated tracking of animal movement and
+  behaviour.
+\newblock \emph{{bioRxiv}}, 2018.
+\newblock \doi{10.1101/412262}.
+
+\bibitem[Liu et~al.(2018)Liu, Nath, Linneweber, and computational
+  …]{Liu_A_2018}
+G~Liu, T~Nath, {GA} Linneweber, and Claeys~A computational ….
+\newblock A simple computer vision pipeline reveals the effects of isolation on
+  social interaction dynamics in drosophila.
+\newblock \emph{{PLoS} computational~…}, 2018.
+
+\bibitem[Kain et~al.(2013)Kain, Stokes, Gaudry, Song, and
+  Nature~…]{Kain_Leg_2013}
+J~Kain, C~Stokes, Q~Gaudry, X~Song, and Foley~J Nature~….
+\newblock Leg-tracking and automated behavioural classification in drosophila.
+\newblock \emph{Nature~…}, 2013.
+
+\bibitem[Uhlmann et~al.(2017)Uhlmann, Ramdya, and
+  R]{Uhlmann_FlyLimbTracker_2017}
+V~Uhlmann, P~Ramdya, and {PLoS~…,}~{Delgado-Gonzalo~-} R.
+\newblock {FlyLimbTracker:} an active contour based approach for leg segment
+  tracking in unmarked, freely behaving drosophila.
+\newblock \emph{{PLoS~…}}, 2017.
+
+\bibitem[Itskovits et~al.(2017)Itskovits, Levine, Cohen, and
+  Zaslaver]{Itskovits_A_2017}
+Eyal Itskovits, Amir Levine, Ehud Cohen, and Alon Zaslaver.
+\newblock A multi-animal tracker for studying complex behaviors.
+\newblock 15\penalty0 (1):\penalty0 29, 2017.
+
+\bibitem[M{\"o}nck et~al.(2018)M{\"o}nck, J{\"o}rg, von Falkenhausen, and
+  preprint {arXiv~…,} Tanke~J]{Mnck_BioTracker_2018}
+{HJ} M{\"o}nck, A~J{\"o}rg, T~von Falkenhausen, and preprint {arXiv~…,}
+  Tanke~J.
+\newblock {BioTracker:} an {Open-Source} computer vision framework for visual
+  animal tracking.
+\newblock \emph{{arXiv} preprint {arXiv~…}}, 2018.
+
+\end{thebibliography}
