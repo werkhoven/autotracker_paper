@@ -1,0 +1,191 @@
+\begin{thebibliography}{27}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Fry et~al.(2008)Fry, Rohrseitz, Straw, and
+  of~neuroscience]{Fry_TrackFly_2008}
+{SN} Fry, N~Rohrseitz, {AD} Straw, and Dickinson~{MH} of~neuroscience.
+\newblock {TrackFly:} virtual reality for a behavioral system analysis in
+  free-flying fruit flies.
+\newblock \emph{Journal of neuroscience~…}, 2008.
+
+\bibitem[Donelson et~al.(2012)Donelson, Kim, Slawson, and
+  one]{Donelson_High_2012}
+N~Donelson, {EZ} Kim, {JB} Slawson, and Vecsey~{CG} one.
+\newblock High-resolution positional tracking for long-term analysis of
+  drosophila sleep and locomotion using the “tracker” program.
+\newblock \emph{{PloS} one}, 2012.
+
+\bibitem[Mathis et~al.(2018)Mathis, Mamidanna, Cury, Abe, Murthy, Mathis, and
+  Bethge]{Mathis_DeepLabCut_2018}
+Alexander Mathis, Pranav Mamidanna, Kevin~M Cury, Taiga Abe, Venkatesh~N
+  Murthy, Mackenzie Mathis, and Matthias Bethge.
+\newblock {DeepLabCut:} markerless pose estimation of user-defined body parts
+  with deep learning.
+\newblock \emph{Nat Neurosci}, 21\penalty0 (9):\penalty0 1281--1289, 2018.
+\newblock ISSN 1097-6256.
+\newblock \doi{10.1038/s41593-018-0209-y}.
+
+\bibitem[Pereira et~al.(2018)Pereira, Aldarondo, Willmore, and
+  M]{Pereira_Fast_2018}
+{TD} Pereira, {DE} Aldarondo, L~Willmore, and {bioRxiv,}~Kislin M.
+\newblock Fast animal pose estimation using deep neural networks.
+\newblock \emph{{bioRxiv}}, 2018.
+\newblock \doi{10.1101/331181}.
+
+\bibitem[A et~al.(2014)A, J, and Nature~…]{Prez-Escudero_idTracker_2014}
+{P{\'e}rez-Escudero,} A, {Vicente-Page,} J, and Hinz~{RC} Nature~….
+\newblock {idTracker:} tracking individuals in a group by automatic
+  identification of unmarked animals.
+\newblock \emph{Nature~…}, 2014.
+
+\bibitem[Eyjolfsdottir et~al.(2014)Eyjolfsdottir, Branson, and
+  Vision]{Eyjolfsdottir_Detecting_2014}
+E~Eyjolfsdottir, S~Branson, and {Burgos-Artizzu~-}~{XP} Vision.
+\newblock Detecting social actions of fruit flies.
+\newblock \emph{…~on Computer Vision}, 2014.
+
+\bibitem[Ramot et~al.(2008)Ramot, Johnson, Jr, and one]{Ramot_The_2008}
+D~Ramot, {BE} Johnson, Berry~{TL} Jr, and Carnell~L one.
+\newblock The parallel worm tracker: a platform for measuring average speed and
+  drug-induced paralysis in nematodes.
+\newblock \emph{{PloS} one}, 2008.
+
+\bibitem[Swierczek et~al.(2011)Swierczek, Giles, Rankin, and
+  methods]{Swierczek_High_2011}
+{NA} Swierczek, {AC} Giles, {CH} Rankin, and Kerr~{RA} methods.
+\newblock High-throughput behavioral analysis in c. elegans.
+\newblock \emph{Nature methods}, 2011.
+
+\bibitem[Itskovits et~al.(2017)Itskovits, Levine, Cohen, and
+  Zaslaver]{Itskovits_A_2017}
+Eyal Itskovits, Amir Levine, Ehud Cohen, and Alon Zaslaver.
+\newblock A multi-animal tracker for studying complex behaviors.
+\newblock 15\penalty0 (1):\penalty0 29, 2017.
+
+\bibitem[Rodriguez et~al.(2017)Rodriguez, Zhang, Klaminder, and
+  reports]{Rodriguez_ToxId_2017}
+A~Rodriguez, H~Zhang, J~Klaminder, and Brodin~T reports.
+\newblock {ToxId:} an efficient algorithm to solve occlusions when tracking
+  multiple animals.
+\newblock \emph{Scientific reports}, 2017.
+
+\bibitem[Branson et~al.(2009)Branson, Robie, Bender, and
+  Nature~…]{Branson_High_2009}
+K~Branson, {AA} Robie, J~Bender, and Perona~P Nature~….
+\newblock High-throughput ethomics in large groups of drosophila.
+\newblock \emph{Nature~…}, 2009.
+
+\bibitem[Sridhar et~al.(2018)Sridhar, Roche, and S]{Sridhar_Tracktor_2018}
+{VH} Sridhar, {DG} Roche, and {bioRxiv,}~Gingins S.
+\newblock Tracktor: image-based automated tracking of animal movement and
+  behaviour.
+\newblock \emph{{bioRxiv}}, 2018.
+\newblock \doi{10.1101/412262}.
+
+\bibitem[Liu et~al.(2018)Liu, Nath, Linneweber, and computational
+  …]{Liu_A_2018}
+G~Liu, T~Nath, {GA} Linneweber, and Claeys~A computational ….
+\newblock A simple computer vision pipeline reveals the effects of isolation on
+  social interaction dynamics in drosophila.
+\newblock \emph{{PLoS} computational~…}, 2018.
+
+\bibitem[Kain et~al.(2013)Kain, Stokes, Gaudry, Song, and
+  Nature~…]{Kain_Leg_2013}
+J~Kain, C~Stokes, Q~Gaudry, X~Song, and Foley~J Nature~….
+\newblock Leg-tracking and automated behavioural classification in drosophila.
+\newblock \emph{Nature~…}, 2013.
+
+\bibitem[Uhlmann et~al.(2017)Uhlmann, Ramdya, and
+  R]{Uhlmann_FlyLimbTracker_2017}
+V~Uhlmann, P~Ramdya, and {PLoS~…,}~{Delgado-Gonzalo~-} R.
+\newblock {FlyLimbTracker:} an active contour based approach for leg segment
+  tracking in unmarked, freely behaving drosophila.
+\newblock \emph{{PLoS~…}}, 2017.
+
+\bibitem[Geissmann et~al.(2017)Geissmann, Rodriguez, and
+  {EJ}]{Geissmann_Ethoscopes_2017}
+Q~Geissmann, {LG} Rodriguez, and {PLoS~…,}~Beckwith {EJ}.
+\newblock Ethoscopes: An open platform for high-throughput ethomics.
+\newblock \emph{{PLoS~…}}, 2017.
+
+\bibitem[Straw and of~The~…(2011)]{Straw_Multi_2011}
+{AD} Straw and Branson~K of~The~….
+\newblock Multi-camera real-time three-dimensional tracking of multiple flying
+  animals.
+\newblock \emph{Journal of The~…}, 2011.
+\newblock ISSN 1742-5689.
+\newblock \doi{10.1098/rsif.2010.0230}.
+
+\bibitem[Stowers et~al.(2017)Stowers, Hofbauer, Bastien, and
+  Nature~…]{Stowers_Virtual_2017}
+{JR} Stowers, M~Hofbauer, R~Bastien, and Griessner~J Nature~….
+\newblock Virtual reality for freely moving animals.
+\newblock \emph{Nature~…}, 2017.
+
+\bibitem[Chagas et~al.(2017)Chagas, {LL}, and {AB}]{Chagas_The_2017}
+{AM} Chagas, {Prieto-Godino,} {LL}, and {PLoS~…,}~Arrenberg {AB}.
+\newblock The€ 100 lab: A {3D-printable} open-source platform for
+  fluorescence microscopy, optogenetics, and accurate temperature control
+  during behaviour of zebrafish~….
+\newblock \emph{{PLoS~…}}, 2017.
+
+\bibitem[M{\"o}nck et~al.(2018)M{\"o}nck, J{\"o}rg, von Falkenhausen, and
+  preprint {arXiv~…,} Tanke~J]{Mnck_BioTracker_2018}
+{HJ} M{\"o}nck, A~J{\"o}rg, T~von Falkenhausen, and preprint {arXiv~…,}
+  Tanke~J.
+\newblock {BioTracker:} an {Open-Source} computer vision framework for visual
+  animal tracking.
+\newblock \emph{{arXiv} preprint {arXiv~…}}, 2018.
+
+\bibitem[Buchanan et~al.(2015)Buchanan, Kain, and
+  de~Bivort]{Buchanan_Neuronal_2015}
+Sean~M Buchanan, Jamey~S Kain, and Benjamin~L de~Bivort.
+\newblock Neuronal control of locomotor handedness in drosophila.
+\newblock \emph{Proceedings of the~…}, 2015.
+\newblock ISSN 0027-8424.
+\newblock \doi{10.1073/pnas.1500804112}.
+
+\bibitem[Ayroles et~al.(2015)Ayroles, Buchanan, and of~the
+  …]{Ayroles_Behavioral_2015}
+{JF} Ayroles, {SM} Buchanan, and {O'Leary~-}~C of~the ….
+\newblock Behavioral idiosyncrasy reveals genetic control of phenotypic
+  variability.
+\newblock \emph{Proceedings of the~…}, 2015.
+\newblock \doi{10.1073/pnas.1503830112}.
+
+\bibitem[Fujiwara et~al.(2017)Fujiwara, Cruz, Bohnslav, and
+  neuroscience]{Fujiwara_A_2017}
+T~Fujiwara, {TL} Cruz, {JP} Bohnslav, and Chiappe~{ME} neuroscience.
+\newblock A faithful internal representation of walking movements in the
+  drosophila visual system.
+\newblock \emph{Nature neuroscience}, 2017.
+
+\bibitem[G{\"o}tz and of~comparative physiology(1973)]{Gtz_Visual_1973}
+{KG} G{\"o}tz and Wenking~H of~comparative physiology.
+\newblock Visual control of locomotion in the walking {fruitflyDrosophila}.
+\newblock \emph{Journal of comparative physiology}, 1973.
+
+\bibitem[Zhu et~al.(2009)Zhu, Nern, Zipursky, and Biology]{Zhu_Peripheral_2009}
+Y~Zhu, A~Nern, {SL} Zipursky, and Frye~{MA} Biology.
+\newblock Peripheral visual circuits functionally segregate motion and
+  phototaxis behaviors in the fly.
+\newblock \emph{Current Biology}, 2009.
+
+\bibitem[Kim et~al.(2016)Kim, Tellez, Buchan, and in~molecular]{Kim_Fly_2016}
+S~Kim, K~Tellez, G~Buchan, and Lebestky~T in~molecular.
+\newblock Fly stampede 2.0: A next generation optomotor assay for walking
+  behavior in drosophila melanogaster.
+\newblock \emph{Frontiers in molecular~…}, 2016.
+
+\bibitem[Seelig et~al.(2010)Seelig, Chiappe, Lott, Dutta, and
+  Nature~…]{Seelig_Two_2010}
+{JD} Seelig, {ME} Chiappe, {GK} Lott, A~Dutta, and Osborne~{JE} Nature~….
+\newblock Two-photon calcium imaging from head-fixed drosophila during
+  optomotor walking behavior.
+\newblock \emph{Nature~…}, 2010.
+
+\end{thebibliography}
