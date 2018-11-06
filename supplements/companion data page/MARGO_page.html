@@ -1,0 +1,265 @@
+<STYLE TYPE="TEXT/CSS"><!--
+div{
+	line-height:120%;}
+
+
+
+div.biblioInfo{
+	left:15px;}
+
+font.paperTitle{
+	position:relative;
+	font-size:120%;}
+	
+	table{ background-color:f0f0f0;
+		border-collapse:collapse;
+			border:1px solid black;}
+			
+	td {padding:7px;
+		border:4px solid white;}
+			
+a{
+
+	color:#128;}
+
+ul li { padding: 3px 0px; }
+p { margin-bottom:-10 }
+.tab { margin-left: 15px; }
+
+font.paperPDFlink{
+	color:#128;
+	text-decoration:underline;}
+
+//--> </STYLE>
+
+
+<title> de Bivort Lab: MARGO (Massively Automated Real-time GUI for Object-tracking), a platform for high-throughput ethology</title>
+<link rel="icon" type="image/png" href="http://lab.debivort.org/images/debivortfavicon.png">
+
+<base target=top>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-33262886-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+
+<table width=900px>
+<tr><td colspan=2 bgcolor="ffffff">
+<font style="font-size:25px;"><b>Companion Data Page</b></font><br><br>
+<font style="font-size:22px;"><b> MARGO (Massively Automated Real-time GUI for Object-tracking), <br>a platform for high-throughput ethology</b></font><br><br>
+<font style="font-size:18px;">
+Zach Werkhoven,
+Chuan Qin, and 
+Benjamin de Bivort</font><br><br>
+<font style="font-size:12px;">
+<sup> Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA 02138, USA. <br>
+<br>
+<sup>**</sup>  Corresponding author: debivort@oeb.harvard.edu
+</font>
+<br><br>
+</td></tr>
+
+
+
+
+<tr><td colspan=2 bgcolor="#DC143C"><font color=ffffff><h2>Data files (MATLAB 2016a)</h2>
+<a href="Werkhoven_MARGO_data.zip"><font color=ffffff>Download a .zip of all these data files.</a></td></tr>
+
+<tr bgcolor="f4f4f4"> <td><a href="noise_injection_error_data.mat">noise_injection_error_data.mat</a> </td>
+<td> Contains two data arrays from tracking following manual noise injection. <i>Cen_error</i> is a number 
+of frames by number of noise levels matrix of frame to frame error. <i>Noise_level</i> is an ordered one by number of
+noise levels array of probabilities of converting any given pixel of the threshold image to TRUE. Columns of
+<i>cen_error</i> are organised by increasing noise level. Data can be visualized with plot_mean_injection_error.m.
+</td> </tr>
+
+<tr bgcolor="f4f4f4"> <td><a href="reference_shift_simulation_data.mat">reference_shift_simulation_data.mat</a> </td>
+<td> Contains data from the background reference shifting simulation. Summary of items:
+    <ul>
+        <li>raw_cen - x,y trace data from ground truth</li>
+        <li>shift_cen - x,y trace data from background shifting</li>
+        <li>shift_int - interval between shift events (frames)</li>
+        <li>shift_idx - frame indices of shift events</li>
+        <li>ifi - mean interframe interval (seconds)</li></li>
+    </ul>
+Data can be visualized with reference_shift_triggered_averaging.m.
+</td> </tr>
+
+<tr bgcolor="f4f4f4"> <td><a href="margo_ctrax_comparison_centroids.mat">margo_ctrax_comparison_centroids.mat</a> </td>
+<td> Contains tracking data from the same video tracked in both Ctrax and MARGO. Summary of items:
+    <ul>
+        <li>ctrax_x - (1 x nFlies) cell array of x-centroid data obtained with Ctrax</li>
+        <li>ctrax_y - (1 x nFlies) cell array of y-centroid data obtained with Ctrax</li>
+        <li>margo_x - (1 x nFlies) cell array of x-centroid data obtained with MARGO</li>
+        <li>margo_y - (1 x nFlies) cell array of y-centroid data obtained with MARGO</li>
+    </ul>
+Data can be visualized with calculate_margo_to_ctrax_error.m.
+</td> </tr>
+
+<tr bgcolor="f4f4f4"> <td><a href="LED_ymaze_individual_trial_data.mat">LED_ymaze_individual_trial_data.mat</a> </td>
+<td> Contains individual phototaxis and handedness biases grouped by whether the light stimulus occured to the 
+right or left of the maze choice point. Summary of items:
+    <ul>
+        <li>nTrials - (1 x nFlies) number of trials for each fly</li>
+        <li>p_LR - (1 x nFlies) probabilities p(light_choice|light_on_right)</li>
+        <li>p_LL - (1 x nFlies) probabilities p(light_choice|light_on_left)</li>
+        <li>p_RL - (1 x nFlies) probabilities p(right_choice|light_on_right)</li>
+        <li>p_RD - (1 x nFlies) probabilities p(right_choice|light_on_left)</li>
+        <li>side_mat - (nTrials x nFlies) matrix of lit side relative to the starting point. <br>Right = 1, Left = -1, No turn = 0</li>
+    </ul>
+Data can be visualized with LED_ymaze_plot_pairdots.m.
+</td> </tr>
+
+<tr bgcolor="f4f4f4"> <td><a href="optomotor_individual_data.mat">optomotor_individual_data.mat</a> </td>
+<td> Contains individual trial triggered averages of optomotor data. Summary of items:
+    <ul>
+        <li>numTrials - (1 x nExperiments) cell array of arrays w/ individual trial numbers for each experiment</li>
+        <li>delta_ang - (1 x nExperiments) cell array of arrays w/ individual trial triggered average change in body angle for a single experiment</li>
+        <li>delta_rad - (1 x nExperiments) cell array of arrays w/ individual trial triggered average change in normalize radial position for a single experiment</li>
+        <li>trial_t - (1 x nExperiments) cell array of trial-relative time stamps of for each experiment</li>
+    </ul>
+Data can be visualized with plot_trial_triggered_averages_opotomotor.m.
+</td> </tr>
+
+<tr bgcolor="f4f4f4"> <td><a href="optomotor_bootstrap_data.mat">optomotor_bootstrap_data.mat</a> </td>
+<td> Contains individual trial triggered averages of optomotor data. Summary of items:
+    <ul>
+        <li>numTrials - (1 x nExperiments) cell array of arrays w/ individual trial numbers for each experiment</li>
+        <li>raw_delta - (1 x nExperiments) cell array of arrays of total angular distance traveled in each trial</li>
+        <li>stim_delta - (1 x nExperiments) cell array of arrays of total angular distance traveled in the direction of stimulus rotation in each trial</li>
+    </ul>
+</td> </tr>
+
+<tr bgcolor="f4f4f4"> <td><a href="single_roi_sample.avi"><single_roi_sample class="avi"></single_roi_sample></a> </td>
+<td> Sample video of a single roi at low resolution (31 x 31 pixel). Note: this sample was used in conjuction with
+tile_single_roi_vid.m to generate a sample video with thousands of ROIs for frame rate.
+</td> </tr>
+
+
+
+<tr><td colspan=2 bgcolor="#DC143C"><font color=ffffff><h2>Analysis, simulation, and visualization functions and scripts (MATLAB 2016a)</h2>
+<a href="Werkhoven_MARGO_Functions.zip"><font color=ffffff>Download a .zip of all these scripts and functions.</a></td></tr>
+
+
+<tr bgcolor="f4f4f4"> <td>
+<a href="inject_image_noise.m">inject_image_noise.m</a>
+<a href="plot_mean_injection_error.m">plot_mean_injection_error.m</a> </td>
+<td><b>Function</b>: inject_image_noise.m<br>
+    <p class="tab"><u>Description</u>: converts each pixel of a binary image to TRUE at a uniform probabilty<br><u>Inputs:</u></p>
+        <ul>
+            <li>thresh_im - binary threshold image for foreground segementation (foreground = TRUE)</li>
+            <li>noise_level - probability of converting any given pixel (0-1)</li>
+        </ul>
+    </p>
+    <p class="tab"><u>Outputs</u>:
+        <ul>
+            <li>noise_im - binary threshold image with added noise</li>
+        </ul>
+    </p>
+<b>Script</b>: plot_mean_injection_error.m
+<p class="tab"><u>Description</u>: plots total mean centroid error relative to a ground truth sample<br><u>Data</u>: noise_injection_error_data.mat
+</p><br>
+Additional details in the top line comments</td></tr>
+
+<tr bgcolor="f4f4f4"> <td>
+<a href="shift_reference.m">shift_reference.m</a>
+<a href="reference_shift_triggered_averaging.m">reference_shift_triggered_averaging.m</a> </td>
+<td><b>Function</b>: shift_reference.m<br>
+    <p class="tab"><u>Description</u>: shifts the background reference image 2 pixels in a random direction<br><u>Inputs:</u></p>
+        <ul>
+            <li>trackDat - Frame to frame tracking data (including bg reference)</li>
+            <li>expmt - MARGO ExperimentData meta data container</li>
+        </ul>
+    </p>
+    <p class="tab"><u>Outputs</u>:
+        <ul>
+            <li>shifted bg reference (trackDat.ref.im)</li>
+            <li>time since reference shift (expmt.shift.t)</li>
+            <li>updated list of indices of frame shifts (expmt.shift.idx)</li>
+        </ul>
+    </p>
+<b>Script</b>: reference_shift_triggered_averaging.m
+<p class="tab"><u>Description</u>: calculates and plots average tracking error triggered in a short (2s) window around the
+the reference shift. Error is calculated relative to a ground truth sample with the reference unshifted<br><u>Data</u>: reference_shift_simulation_data.mat
+</p><br>
+Additional details in the top line comments</td></tr>
+
+<tr bgcolor="f4f4f4"> <td>
+<a href="calculate_margo_to_ctrax_error.m">calculate_margo_to_ctrax_error.m</a></td>
+<td><b>Script</b>: calculate_margo_to_ctrax_error.m
+<p class="tab"><u>Description</u>: calculates and aggregates the error between centroid coordinates obtained with MARGO and Ctrax.
+Plots a density estimate of the total error between the two samples. <br><u>Data</u>: margo_ctrax_comparison_centroids.mat
+</p><br>
+Additional details in the top line comments</td></tr>
+
+<tr bgcolor="f4f4f4"> <td>
+<a href="tile_single_roi_vid.m">tile_single_roi_vid.m"</a>
+<td><b>Function</b>: tile_single_roi_vid.m<br>
+    <p class="tab"><u>Description</u>: replicates an sample video of a single ROI up to an M x N tiling<br><u>Inputs:</u></p>
+        <ul>
+            <li>vid_path - file path to a single ROI sample video to tile. A sample is provided in (sample_roi_vid.avi)</li>
+            <li>ntiles - (1 x 2) array of M rows and N columns to tile the sample</li>
+        </ul>
+    </p>
+    <p class="tab"><u>Outputs</u>:
+        <ul>
+            <li>saves the tiled video under the current directory in "tiled_roi_sample.avi"</li>
+        </ul>
+    </p>
+Additional details in the top line comments</td></tr>
+
+<tr bgcolor="f4f4f4"> <td>
+<a href="LED_ymaze_plot_pairdots.m">LED_ymaze_plot_pairdots.m"</a>
+<td><b>Function</b>: LED_ymaze_plot_pairdots.m<br>
+    <p class="tab"><u>Description</u>: plots LED Y-maze individual animal averages grouped by whether the light 
+    appeared to the right or left of the choice point<br><u>Data</u>: LED_ymaze_individual_trial_data.mat</p><br>
+Additional details in the top line comments</td></tr>
+
+<tr bgcolor="f4f4f4"> <td>
+<a href="generate_optomotor_null_model.m">generate_optomotor_null_model.m"</a>
+<td><b>Script</b>: generate_optomotor_null_model.m<br>
+    <p class="tab"><u>Description</u>: Creates an identical individuals null model distribution by bootstrapping
+    all individual trial data<br><u>Data</u>: optomotor_bootstrap_data.mat<br></p>
+    <br><b>Function</b>: opto_bootstrap_all.m<br>
+    <p class="tab"><u>Description</u>: bootstrap resamples individual optomotor trial data up to the number
+    of individuals in the observed data set (with randomly sampled observed trial numbers for each individual)<br><u>Inputs:</u></p>
+        <ul>
+            <li>all_stim_delta - (nFlies) cell array of arrays of total angular distance traveled in the direction of stimulus rotation in each trial</li>
+            <li>all_raw_delta - (nFlies) cell array of arrays of total angular distance traveled in each trial</li>
+        </ul>
+    </p>
+    <p class="tab"><u>Outputs</u>:
+        <ul>
+            <li>null_data - individual average optomotor indices from bootstrapped data</li>
+            <li>obs_data - individual average optomotor indices from observed data</li>
+        </ul>
+    </p>
+Additional details in the top line comments</td></tr>
+
+
+</table>
+
+
+
+ <!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=494805;
+var sc_partition=3;
+</script>
+<script type="text/javascript" language="javascript"
+src="http://www.statcounter.com/counter/counter.js"></script><noscript><a
+href="http://www.statcounter.com/" target="_blank"><img
+src="http://c4.statcounter.com/counter.php?sc_project=494805&amp;amp;java=0"
+alt="hitcounter" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+
+</body>
+</html>
+<!-- text below generated by server. PLEASE REMOVE --><!-- Counter/Statistics data collection code --><script language="JavaScript" src="http://l.yimg.com/d/lib/smb/js/hosting/cp/js_source/whv2_001.js"></script><script language="javascript">geovisit();</script><noscript><img src="http://visit.webhosting.yahoo.com/visit.gif?us1370395900" alt="setstats" border="0" width="1" height="1"></noscript>
