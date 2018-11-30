@@ -1,6 +1,6 @@
 This file download from the CadNav
 
-50000+ Free 3D Models & CAD  Models download£¨http://www.cadnav.com£©
+50000+ Free 3D Models & CAD  Models downloadï¿½ï¿½http://www.cadnav.comï¿½ï¿½
 
 High quality 3D Models Library, online 3D Models resource for CGI graphic designers and CAD/CAM/CAE engineers, daily updates will be posted on our site. (http://www.cadnav.com/3d-models/)
 
@@ -8,7 +8,7 @@ You can download polygonal mesh 3D Models, 3D CAD Solid Object, Textures, Vray m
 
 All of them in our website are FREE download.
 
-INFO:¡¡Please read and comply with the following terms and conditions before using, otherwise please don't use this model!
+INFO:ï¿½ï¿½Please read and comply with the following terms and conditions before using, otherwise please don't use this model!
 
 1. We doesn't accept any claims regarding quality of 3D model or any standards conformity.
 2. We will not participate in any technology or copyright issues.
