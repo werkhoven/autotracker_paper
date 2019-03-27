@@ -1,0 +1,24 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: MARGO_paper_eLife_format.aux
+The style file: unsrtnat.bst
+Database file #1: margo_references.bib
+"{" immediately follows a field name---line 471 of file margo_references.bib
+ : @article{gorostiza_2018, author={Gorostiza, E. Axel}, title={Does Cognition Have a Role in Plasticity of “Innate Behavior”? A Perspective From Drosophila}, journal={Frontiers in Psychology}, volume={9}, pages={1502}, year={2018}, doi
+ :                                                                                                                                                                                                                                              {10.3389/fpsyg.2018.01502}, issn={1664-1078}
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 483 of file margo_references.bib
+ : @article{griebel_2014, title={Faculty of 1000 evaluation for Noninvasive optical inhibition with a red-shifted microbial rhodopsin.}, doi={10.3410/f.718482076.793498459}, journal={F1000 - Post-publication peer review of the biomedical literature}, author={Griebel, Guy}, year={2014}} @article{klapoetke_murata_kim_pulver_birdsey-benson_cho_morimoto_chuong_carpenter_tian_et 
+ :                                                                                                                                                                                                                                                                                                                                                                                       al._2014, title={Independent optical excitation of distinct neural populations}, volume={11}, DOI={10.1038/nmeth.2836}, number={3}, journal={Nature Methods}, author={Klapoetke, Nathan C and Murata, Yasunobu and Kim, Sung Soo and Pulver, Stefan R and Birdsey-Benson, Amanda and Cho, Yong Ku and Morimoto, Tania K and Chuong, Amy S and Carpenter, Eric J and Tian, Zhijian and et al.}, year={2014}, pages={338–346}}
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Sridhar_Tracktor_2018"
+Warning--I didn't find a database entry for ""
+Warning--empty journal in Mathis_DeepLabCut_2018
+Warning--empty year in Sridhar_2019
+Warning--empty year in Sridhar_2019
+Warning--empty journal in Kuhn_The_1955
+Warning--empty journal in Mnck_BioTracker_2018
+Warning--empty journal in Chiang_Tactic_1963
+Warning--empty journal in Rosner_Behavioural_2009
+Warning--empty journal in Rien_Octopaminergic_2013
+Warning--empty journal in Chiappe_Walking_2010
+Warning--empty journal in Maimon_Active_2010
+(There were 2 error messages)

@@ -51,16 +51,18 @@ font.paperPDFlink{
 </head>
 <body>
 
-<table width=900px>
+<table width=1000px>
 <tr><td colspan=2 bgcolor="ffffff">
 <font style="font-size:25px;"><b>Companion Data Page</b></font><br><br>
 <font style="font-size:22px;"><b> MARGO (Massively Automated Real-time GUI for Object-tracking), <br>a platform for high-throughput ethology</b></font><br><br>
 <font style="font-size:18px;">
 Zach Werkhoven,
-Chuan Qin, and 
+Chuan Qin, Christian Rohrsen, 
+Björn Brembs, and 
 Benjamin de Bivort</font><br><br>
 <font style="font-size:12px;">
-<sup> Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA 02138, USA. <br>
+<sup> Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA 02138, USA.</sup> <br>
+<sup>Institut für Zoologie - Neurogenetik, Universität Regensburg, Regensburg, Germany</sup><br>
 <br>
 <sup>**</sup>  Corresponding author: debivort@oeb.harvard.edu
 </font>
@@ -71,7 +73,7 @@ Benjamin de Bivort</font><br><br>
 
 
 <tr><td colspan=2 bgcolor="#DC143C"><font color=ffffff><h2>Data files (MATLAB 2016a)</h2>
-<a href="Werkhoven_MARGO_data.zip"><font color=ffffff>Download a .zip of all these data files.</a></td></tr>
+<a href="margo_paper_data.zip"><font color=ffffff>Download a .zip of all these data files.</a></td></tr>
 
 <tr bgcolor="f4f4f4"> <td><a href="noise_injection_error_data.mat">noise_injection_error_data.mat</a> </td>
 <td> Contains two data arrays from tracking following manual noise injection. <i>Cen_error</i> is a number 
@@ -137,15 +139,73 @@ Data can be visualized with plot_trial_triggered_averages_opotomotor.m.
     </ul>
 </td> </tr>
 
-<tr bgcolor="f4f4f4"> <td><a href="single_roi_sample.avi"><single_roi_sample class="avi"></single_roi_sample></a> </td>
+<tr bgcolor="f4f4f4"> <td><a href="single_roi_sample.avi"><single_roi_sample class="avi">single_roi_sample</a> </td>
 <td> Sample video of a single roi at low resolution (31 x 31 pixel). Note: this sample was used in conjuction with
 tile_single_roi_vid.m to generate a sample video with thousands of ROIs for frame rate.
+</td> </tr>
+
+<tr bgcolor="f4f4f4"> <td><a href="optogenetic_speed_distributions.mat">optogenetic_speed_distributions</a> </td>
+<td> Contains a struct of individual mean speed data distributions split by condition and time blocks from the
+optogenetic speed reinforcement paradigm. Summary of items:
+    <ul>
+        <li> by_time_block - struct of speed data split by time block
+            <ul>
+                <li>data - (1 x nBlocks) cell array individual mean speeds per experimental group and time block</li>
+                <li>labels - (1 x nBlocks) cell array of condition/time block labels for columns in data</li>
+            </ul>
+        </li>
+        <li> by_condition - struct of speed data split by reinforcement condition
+            <ul>
+                <li>data - (1 x nBlocks) cell array individual mean speeds per experimental group and condition</li>
+                <li>labels - (1 x nBlocks) cell array of condition/group labels for columns in data</li>
+            </ul>
+        </li>
+    </ul>
+</td> </tr>
+
+<tr bgcolor="f4f4f4"> <td><a href="optogenetic_speed_traces.mat">optogenetic_speed_traces</a> </td>
+<td> Contains a struct of speed trace data from the
+optogenetic speed reinforcement paradigm. Summary of items:
+    <ul>
+        <li> data - (nGenotypes x 1) cell array of individual speed traces (nFrames x nFlies)</li>
+        <li> frame_labels - (nGenotypes x 1) cell array of frame labels by reinforcement paradigm (nFrames x 1)</li>
+        <li> labels - (nGenotypes x 1) cell array of genotype labels</li>
+        <li> frame_label_key - (nParadigms x 1) lookup table for frame to frame labels by reinforcement paradigm</li>
+    </ul>
+</td> </tr>
+
+<tr bgcolor="f4f4f4"> <td><a href="optogenetic_ymaze_data.mat">optogenetic_ymaze_data</a> </td>
+<td> Contains structs of ymaze distributions from the
+optogenetic Y-maze reinforcement paradigm. Summary of items:
+<ul>
+    <li> occ_int_gr66 - struct of Gr66a occupancy distributions and labels split by stimulation intensity</li>
+    <li> occ_freq_gr66 - struct of Gr66a occupancy distributions and labels split by stimulation frequency</li>
+    <li> occ_norpa_gr66 - struct of NorpA+Gr28bd occupancy distributions and labels split by ATR(-/+)</li>
+    <li> ent_int_gr66 - struct of Gr66a arm entry distributions and labels split by stimulation intensity</li>
+    <li> ent_freq_gr66 - struct of Gr66a arm entry distributions and labels split by stimulation frequency</li>
+    <li> ent_norpa_gr66 - struct of NorpA+Gr28bdarm entry distributions and labels split by ATR(-/+)</li>
+</ul>
+</td> </tr>
+
+<tr bgcolor="f4f4f4"> <td><a href="960_fly_meta_data.mat">960_fly_meta_data</a> </td>
+<td> Contains the ExperimentData object from the 960 high-throughput tracking demonstration. Summary of items:
+<ul>
+    <li> expmt - ExperimentData object. See MARGO documentation for details.</li>
+</ul>
+</td> </tr>
+
+<tr bgcolor="f4f4f4"> <td><a href="960_fly_raw_data.mat">960_fly_raw_data</a> </td>
+<td> Contains binary raw data for centroids and time stamps from the 960 high-throughput tracking demonstration . Summary of items:
+<ul>
+    <li> centroids.bin - (nFlies x [x,y] x nFrames) raw centroid coordinates in single floating point precision</li>
+    <li> time.bin - (nFrames x 1) raw time stamps formatted as inter-frame interval (in seconds) in single floating point precision</li>
+</ul>
 </td> </tr>
 
 
 
 <tr><td colspan=2 bgcolor="#DC143C"><font color=ffffff><h2>Analysis, simulation, and visualization functions and scripts (MATLAB 2016a)</h2>
-<a href="Werkhoven_MARGO_Functions.zip"><font color=ffffff>Download a .zip of all these scripts and functions.</a></td></tr>
+<a href="margo_paper_code.zip"><font color=ffffff>Download a .zip of all these scripts and functions.</a></td></tr>
 
 
 <tr bgcolor="f4f4f4"> <td>
@@ -241,6 +301,27 @@ Additional details in the top line comments</td></tr>
             <li>obs_data - individual average optomotor indices from observed data</li>
         </ul>
     </p>
+Additional details in the top line comments</td></tr>
+
+<tr bgcolor="f4f4f4"> <td>
+<a href="kde_plots_960_fly.m">kde_plots_960_fly.m</a></td>
+<td><b>Script</b>: kde_plots_960_fly.m
+<p class="tab">
+    <u>Description</u>: Generate log speed kernel density estimates for individual flies
+    process the speed data to regenerate the raw speed data and extract speed
+    bouts. <br>
+    <u>Data</u>: meta_data_960_fly.mat, raw_data_960_fly.zip
+</p><br>
+Additional details in the top line comments</td></tr>
+
+<tr bgcolor="f4f4f4"> <td>
+<a href="raw_speed_plot_960_fly.m">raw_speed_plot_960_fly.m</a></td>
+<td><b>Script</b>: raw_speed_plot_960_fly.m
+<p class="tab">
+    <u>Description</u>: Generates summary representations from the raw speed data
+    from the complete raw data found in '960_fly_raw_data.zip'. <br>
+    <u>Data</u>: meta_data_960_fly.mat, raw_data_960_fly.zip
+</p><br>
 Additional details in the top line comments</td></tr>
 
 
