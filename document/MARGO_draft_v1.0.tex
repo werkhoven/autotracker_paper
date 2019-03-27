@@ -17,7 +17,6 @@
 \usepackage[margin=1.5cm]{caption}
 \usepackage{epsfig,amsmath}
 \DeclarePairedDelimiter\abs{${\lvert}$}{${\rvert}$}%
-\usepackage{titlesec,color}
 \usepackage{kpfonts}
 \usepackage{empheq}
 \usepackage{palatino}
@@ -36,12 +35,11 @@
 \usepackage[super,sort&compress]{natbib}
 \setlength\columnsep{0.3in}
 \setlength{\parindent}{1cm}
-\setlength{\parskip}{1mm}
 \tcbuselibrary{listings,skins}
 \tolerance=1
 \emergencystretch=\maxdimen
 \hyphenpenalty=10000
-\hbadness=1000
+\hbadness=500
 \hypersetup{citecolor=black}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
@@ -49,7 +47,7 @@
 \definecolor{mauve}{rgb}{0.58,0,0.82}
 
 \usepackage{titlesec}
-#\titleformat{\subsection}{\normalfont\fontfamily{phv}\fontsize{10}{10}\selctfont}{\thesubsection}{1em}{}
+\titleformat{\subsection}{\normalfont\fontfamily{phv}\fontsize{10}{10}\selctfont}{\thesubsection}{1em}{}
 
 \begin{document}
 	
@@ -130,7 +128,6 @@ MARGO was developed for high-throughput ethology in fruit flies, but many small 
 
 We gave MARGO a graphical user interface (GUI) to make it accessible to users unfamiliar with MATLAB or programming in general (fig. 1D). We generally find that new users easily learn to use both the core work-flow and parameter customization. The typical setup time of a tracking experiment for trained users ranged between a few seconds (with saved parameter profiles) to a few minutes (under novel imaging conditions). The utility of the GUI extends to customization of analysis, visualization, and input/output sources such as videos, cameras, displays, and COM devices. Descriptions and instructions for these use cases, including defining custom experiments via the API, are available in MARGO's documentation.
 
-
 \subsection*{\textit{Integrating hardware for closed-loop experiments}}
 
 Real-time tracking allows the delivery of closed-loop stimuli that depend on the behavior of animals. MARGO offers native support for the hardware needed for closed-loop experiments including: cameras for real-time image acquisition, projectors/displays for visual stimuli, and serial COM devices for digital control of other peripheral electronics. COM devices include programmable microcontrollers (like Arduinos) that make it relatively simple to control a wide variety of devices. MARGO was designed to detect and communicate with such COM devices devices to integrate real-time feedback from sensors and coordinate closed-loop control of peripheral hardware. 
@@ -158,7 +155,6 @@ To test the versatility of MARGO, we used its API to implement high-throughput c
 As a first experiment, we tracked the flies in a Y-Maze shaped like that in fig. 4A, but with no LEDs. Whenever a fly entered a designated arm, MARGO projected red light on it. Flies expressed CsChrimson in bitter-taste receptor neurons using the driver \textit{Gr66a-GAL4}. MARGO recorded the time spent in the lit arm (occupancy) and the number of entries into the lit arm (entries). We observed a modest increase of the aversive effects of optogenetic stimulation (reduced occupancy and entries) with light intensity (fig. 6A.1), whereas increasing stimulation frequency did not elicit any obvious change in aversion (fig. 6A.2). To test the robustness of the experiment to changes in the fictive conditioning stimulus, and to exclude the effects of visual cues, we expressed CsChrimson in heat sensitive neurons targeted by \textit{Gr28bd+TrpA1-GAL4} in \textit{norpA\textsuperscript{P24}} blind flies. This experiment is conceptually analogous to spatial learning in the heat-box, where flies are trained to avoid one side of a dark, heatable chamber \cite{wustmann_rein_wolf_heisenberg_1996,wustmann_heisenberg_1997,diegelmann_2006,ostrowski_kahsai_kramer_knutson_zars_2015,putz_2002,sitaraman_zars_zars_2007,sitaraman_zars_zars_2010,zars_zars_2006}. While blindness only marginally affected the time spent in the lit arm (the blind flies with Chrimson driven in heat-sensitive neurons still avoided occupying the lit arm at similar rates to seeing flies with Chrimson in bitter-sensitive neurons), the reduction in entries into the lit arm, observed in the seeing flies, was abolished (fig. 6A.3). These results suggest that vision is a key sensory modality informing the decision to enter an arm, but not for the decision of how much time to spend in an arm, once entered.
 
 Analogous to a different heat-box experiment\cite{YANG2013799}, optogenetic stimulation was made contingent on locomotor speed rather than position. In the same circular arenas as the optomotor experiments above (fig. 5A), the red light was switched on under two distinct conditions enforced in separate experimental blocks: 1) whenever the walking speed of the flies exceeded a threshold of 6.8 mm/s and 2) whenever the walking speed fell below that same threshold. The overall 64 minute experimental protocol consisted of 8 periods of 8 minutes each. The periods alternated between a baseline period, where the light was permanently switched off, and the two reinforcement periods where the light was contingent on either fast walking or slow walking/resting, respectively (fig. 6B.1-2). As in the heat-box experiments, flies increased their walking speed when punished for walking too slowly. However, punishing fast walking failed to significantly decrease walking speed. Reminiscent of the induction of 'learned helplessness' in yoked control animals in the heat-box \cite{YANG2013799}, flies trained with these conflicting schedules of punishment, significantly reduced their walking speed in the baseline periods without optogenetic stimulation, in comparison to control animals which did not express any CsChrimson (fig. 6B.3).
-
 
 \section*{Discussion}
 
@@ -278,7 +274,7 @@ We thank Ed Soucy and Joel Greenwood for help troubleshooting and fabricating th
 \newpage
 \begin{figure}[t!]
 	\begin{center}
-		\includegraphics[width=0.6\textwidth]{../figures/optogenetics_fig.pdf}
+		\includegraphics[width=0.6\textwidth]{../figures/optogenetics_fig_sm.pdf}
 	\end{center}
 	\caption*{\footnotesize \textbf{Figure 6. Optogenetic closed-loop experiments with MARGO} -- A.1) Top: Fraction of time spent in the arm of a Y-maze which was triggered to optogenetically stimulate flies expressing CsChrimson in bitter taste receptor neurons. Bottom: Portion of arm entries into the reinforced arm. Light green boxes are control flies not fed ATR; dark green experimental flies are fed ATR. Red line indicates chance rates. Individual points are flies. Even at the lowest intensity (50\%), flies show a robust avoidance of the reinforced arm in a Y-Maze. Increasing light intensity (x-axis) further decreases (slightly) the lit arm occupancy time and the lit arm entries even further. Here and elsewhere *:p<0.05, **:p<0.01, ***:p<0.001. *:p<0.05, **:p<0.01, ***:p<0.001. 
 	A.2) As in A.1, but varying the frequency of the optogenetic stimulation. Frequency had little effect on the occupancy or rate of entry into the reinforced arm. 
