@@ -231,23 +231,23 @@ We thank Ed Soucy and Joel Greenwood for help troubleshooting and fabricating th
 \bibliography{margo_references} 
 \end{multicols}
 
-\newpage
-\begin{figure}[h!]
+\clearpage
+\begin{figure}[t!]
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{../figures/autotracker_overview.pdf}
+		\includegraphics[width=0.7\textwidth]{../figures/autotracker_overview.pdf}
 	\end{center}
 	\caption*{\footnotesize \textbf{Figure 1. MARGO workflow, tracking algorithm, and sample behavioral box} -- A) Diagram of the user workflow to set up a new tracking experiment. Arrow color indicates whether the setup step is required. Before tracking, users define an input source, define ROIs to track, initialize a background image used to separate foreground and background, and sample the image statistics on a reference of clean tracking. Tracking parameters can be customized at multiple points (blue arrows). B) Flowchart depicting the MARGO's frame-to-frame tracking routine. Each frame consists of image processing (green) to segment foreground from the background, noise estimation (magenta) to assess the quality of foreground segmentation and determine if the current frame can be tracked, and tracking (cyan) of foreground binary blobs. MARGO's tracking algorithm skips noisy frames and re-acquires the background image if many consecutive frames are deemed too noisy to track. C) Schematic of a typical behavioral box used for tracking. Behavioral arenas are backlit with an LED illuminator and imaged with an overhead camera. The tracking camera is fitted with an infrared filter to allow light visible to the animals to be controlled independently of the tracking illumination. A diffuser panel between the LED backlight and the behavioral arenas makes the illumination even. The camera and illuminator are both connected to a computer for real-time tracking and control via MARGO. D) Representative views of MARGO's GUI. Blue inset shows the controls for setting tracking parameters, pink inset the menu options for configuring experiments.}
 \end{figure}
 
-\newpage
-\begin{figure}[h!]
+\clearpage
+\begin{figure}[t!]
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{../figures/autotracker_performance.pdf}
+		\includegraphics[width=0.5\textwidth]{../figures/autotracker_performance.pdf}
 	\end{center}
 	\caption*{\footnotesize \textbf{Figure 2. MARGO tracking accuracy and robustness to imaging noise} -- A) Diagram of the background image shifting scheme used to simulate the kind of background inaccuracy that can happen in long experiments. B) Trial-triggered median tracking error centered on reference shifting. C) Median error of tracking performed on the same video at different levels of compression. Below: sample images. D) Median tracking error versus different levels of added noise. Pixel noise was manually added to the binary threshold image downstream. Below: sample images with estimated fly position (red circle). E) Sample trace comparison and F) log distribution of tracking error between traces acquired from the same video in both MARGO and Ctrax. The 95\% confidence interval of the above means are shown but are within the line thickness.}
 \end{figure}
 
-\newpage
+\clearpage
 \begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{../figures/960_fly_imaging_panel_sm.pdf}
@@ -255,15 +255,15 @@ We thank Ed Soucy and Joel Greenwood for help troubleshooting and fabricating th
 	\caption*{\footnotesize \textbf{Figure 3. MARGO tracking throughput} - A) Image of 10 single-fly housing plates from the overhead tracking camera. B) Sample tracks from the same fly on days 1 and 6. C) Fly speeds at three representative scales: heatmap of individual speed over the duration of the experiment (top), heatmap of individual speed from a three hour period (middle), raw speed traces from twenty individuals from a three minute period (bottom). Activity of most flies decreased over the six day duration. D) Individual kernel density estimates of log speed over the duration of the experiment. Column order was sorted by mean individual bout length in ascending order. E) Acquisition frame rate as a function of number of ROIs tracked in a simulated experiment. The acquisition rate decreased exponentially, consistent with a linear increase in inter-frame interval as a function of ROI number.}
 \end{figure}
 
-\newpage
-\begin{figure}[h!]
+\clearpage
+\begin{figure}[t!]
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{../figures/LED_ymaze_panel_sm.pdf}
+		\includegraphics[width=0.5\textwidth]{../figures/LED_ymaze_panel_sm.pdf}
 	\end{center}
 	\caption*{\footnotesize \textbf{Figure 4. High-throughput phototactic assay in Y-shaped arenas} -- A) Schematic of the behavior box with an LED Y-maze array in place. B) Diagram of a single LED Y-maze and trial structure. New trials initiate by turning on (yellow) an LED in one of the two unoccupied maze arms. The trial ends when then animal turns into a new arm and the lit LED is turned off (gray). Each turn is scored for both handedness and phototactic preference. C) Raw turn data for two sample flies. Each individual trial consists of both a phototactic and handedness choice. Individual mean turn biases range from 0 (all left turns) to 1 (all right turns). Light biases range from 0 (all photopositive turns) to 1 (all photonegative turns). D) Comparison of individual average phototactic bias distributions for different wild-type fly lines. Blind flies (NorpA) and flies tested with all LEDs turned off (DGRP-105 dark) are included as negative controls. Horizontal dashed line indicates random bias at p=0.5. E) Distribution of individual average phototactic biases for the same cohort of flies over the first 8 days post-eclosion. F) Individual mean phototactic and right turn biases calculated on all trials sub-divided by into trials where the lit arm of the maze was to the right or left of the choice point. Data points are colored by either the individual mean right turn bias (left panel) over all trials or the individual mean phototactic bias (right panel) over all trials. The rank orders of both turn bias and phototactic bias are anti-correlated (r=-0.38 and -0.63  respectively) between trials where right or left arm was lit.}
 \end{figure}
 
-\newpage
+\clearpage
 \begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{../figures/optomotor_panel_sm.pdf}
@@ -271,10 +271,10 @@ We thank Ed Soucy and Joel Greenwood for help troubleshooting and fabricating th
 	\caption*{\footnotesize \textbf{Figure 5. High-throughput optomotor assay implementation in MARGO} -- A) Schematic of the optomotor arenas and behavioral box. B) Diagram of a single arena and optomotor stimulus. Trials begin with a pinwheel stimulus, centered on the fly. For each trial, the rotational direction (red arrow) of the stimulus is randomized. As the animal moves, the pinwheel position is updated to stay centered on the fly. Trials end when the stimulus is removed after 2 s. C) Four sample raw individual angular velocity time series. Flies typically respond to optomotor stimuli by turning in the direction of the rotation of the stimulus. Shaded rectangles indicate the direction of pinwheel rotation, line color angular acceleration. Hundreds of individual trials are recorded on average over a two hour period. D) Trial-triggered average optomotor response across all individuals. Change in body angle (left) is scored as positive or negative relative to the rotational direction of the stimulus. All trials were aligned to have change in body angle of zero at the onset of the stimulus. Average distance to the arena center (right) drops immediately preceding stimulus onset due to the requirement that flies must be off the arena edge to start a trial. E) Comparison of the observed distribution of individual average optomotor indices (n=1,860) to the distribution expected under a null model in which all flies turn with identical statistics, generated by bootstrap resampling. F) Population average optomotor index as a function of stimulus contrast (0-1). Pinwheel contrast was randomly varied on a trial-by-trial basis. G) Average optomotor index as a function of stimulus spatial frequency and stimulus angular velocity.}
 \end{figure}
 
-\newpage
+\clearpage
 \begin{figure}[t!]
 	\begin{center}
-		\includegraphics[width=0.6\textwidth]{../figures/optogenetics_fig_sm.pdf}
+		\includegraphics[width=0.5\textwidth]{../figures/optogenetics_fig_sm.pdf}
 	\end{center}
 	\caption*{\footnotesize \textbf{Figure 6. Optogenetic closed-loop experiments with MARGO} -- A.1) Top: Fraction of time spent in the arm of a Y-maze which was triggered to optogenetically stimulate flies expressing CsChrimson in bitter taste receptor neurons. Bottom: Portion of arm entries into the reinforced arm. Light green boxes are control flies not fed ATR; dark green experimental flies are fed ATR. Red line indicates chance rates. Individual points are flies. Even at the lowest intensity (50\%), flies show a robust avoidance of the reinforced arm in a Y-Maze. Increasing light intensity (x-axis) further decreases (slightly) the lit arm occupancy time and the lit arm entries even further. Here and elsewhere *:p<0.05, **:p<0.01, ***:p<0.001. *:p<0.05, **:p<0.01, ***:p<0.001. 
 	A.2) As in A.1, but varying the frequency of the optogenetic stimulation. Frequency had little effect on the occupancy or rate of entry into the reinforced arm. 
@@ -285,13 +285,47 @@ We thank Ed Soucy and Joel Greenwood for help troubleshooting and fabricating th
 	All flies in B were fed with all-trans-retinal.} 
 \end{figure}
 
-\newpage
+\clearpage
 \begin{figure}[t!]
 	\begin{center}
-		\vspace*{-8cm}
 		\includegraphics[width=0.9\textwidth]{../figures/platform_comparison_draft.pdf}
 	\end{center}
 	\caption*{\footnotesize \textbf{Table 1. Comparison of open-source animal tracking packages} -- Trackers as falling into two rough categories: 1) real-time trackers capable of very high throughput and potential hardware integration, and 2) off-line trackers capable of tracking body parts and/or maintaining individual identities without spatial segregation.}
 \end{figure}
+
+\clearpage
+\section*{Supplemental Videos}
+
+\noindent
+\href{https://youtu.be/fyG31BAYHE0}{Supplemental Video 1.} Video from 960 fly experiment with MARGO traces overlaid. Inactive flies are unmarked.
+\newline
+
+\noindent
+\href{https://youtu.be/0aFny65wCnM}{Supplemental Video 2.} MARGO tracking of flies in a simple imaging configuration made from a cardboard box and a sheet of paper. Video was captured with a 1.3MP iPhone camera and tracked offline.
+\newline
+
+\noindent
+\href{https://youtu.be/M8imxRP92k4}{Supplemental Video 3.} MARGO tracking of 48 larval zebrafish in a multiwell culture plate (2x speed).
+\newline
+
+\noindent
+\href{https://youtu.be/kuTM71lHALc}{Supplemental Video 4.} MARGO tracking of \textit{C. Elegans} in WorMotel, a custom 2400 well platform for studying aging.
+\newline
+
+\noindent
+\href{https://youtu.be/sxQMXHJoG24}{Supplemental Video 5.} MARGO tracking of 38 fruit fly larvae in a single ROI in response to a fructose gradient. Individual identities are not maintained through collisions.
+\newline
+
+\noindent
+\href{https://youtu.be/FVIXQSdiWx0}{Supplemental Video 6.} MARGO tracking of a time-lapsed video of a Bumblebee colony in an artificial nestbox. Due to the low temporal resolution, individual identities are not maintained at all.
+\newline
+
+\noindent
+\href{https://youtu.be/PqPJA6hsabE}{Supplemental Video 7.} Summary video of the image processing, object tracking, and closed-loop control in the LED Y-Maze assay.
+\newline
+
+\noindent
+\href{https://youtu.be/uxgswI8jEWY}{Supplemental Video 8.} Summary video of the image processing, object tracking, and closed-loop control in the Optomotor assay.
+\newline
 
 \end{document}
